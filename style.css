@@ -1,0 +1,509 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	scroll-behavior: smooth;
+}
+
+/* ======================================================================================================= */
+/* AWAL CSS BAGIAN HEADER */
+header {
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	height: 65px;
+	width: 100%;
+	background-color: rgba(34, 49, 52, 0.9);
+}
+
+header .container {
+	width: 100%;
+	height: 100%;
+	padding: 0 15px;
+	margin: 0;
+	display: block;
+}
+
+.logo {
+	float: left;
+	width: 125px;
+
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.header-left {
+	float: left;
+	/* padding: 20px; */
+	color: greenyellow
+}
+
+.header-left p {
+	float: left;
+	line-height: 65px;
+	font-size: 20px;
+}
+.header-left a {
+	line-height: 65px;
+	padding: 25px;
+	text-decoration: none;
+	color: greenyellow;
+	font-weight: bold;
+	transition: .5s;
+}
+.header-left a:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	transition: .5s;
+}
+
+.menu-icon {
+	color: white;
+	float: right;
+	font-size: 25px;
+	padding: 21px 0;
+	display: none;
+	font-size: 35px;
+}
+.header-right .logosamsung{
+	float: left;
+	height: 50%;
+	width: 120px;
+	margin-right: 10px;
+}
+.header-right .logoxiaomi{
+	margin-top: 15px;
+	float: left;
+	width: 120px;
+}
+.header-right {
+	float: right;
+	display: inline;
+	margin-right: -25px;
+}
+.container .header-right .fa{
+	font-size: 20px;
+	color: greenyellow;
+}
+
+.header-right a:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	transition: .5s;
+}
+
+.header-right a {
+	line-height: 65px;
+	padding: 25px;
+	text-decoration: none;
+	/* padding-left: 25px;
+    padding-right: 25px; */
+	color: greenyellow;
+	/* display: block; */
+	font-weight: bold;
+	transition: .5s;
+}
+/* AKHIR CSS BAGIAN HEADER */
+/* ======================================================================================================= */
+/* AWAL CSS BAGIAN MAIN */
+.selamat-datang .container {
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 100px;
+	/* margin-left: auto;
+	margin-right: auto; */
+}
+
+.selamat-datang {
+	padding: 150px 0 150px 0;
+	background-image: url(https://image.freepik.com/free-vector/vector-smartphone-with-blank-white-screen_107791-1328.jpg);
+	background-size: cover;
+	background-position: center;
+	color: cornsilk;
+	font-family: "Avenix Next";
+	text-align: center;
+
+}
+
+.selamat-datang h1:hover {
+	background-color: darkkhaki;
+	transition: .5s;
+	transform: scale(1);
+}
+
+.selamat-datang h1 {
+	opacity: 0.9;
+	font-size: 36px;
+	letter-spacing: 3px;
+	/* margin: 0 auto; */
+	background-color: cadetblue;
+	padding: 15px 70px;
+	transition: 1s;
+}
+
+span {
+	color: rgb(21, 36, 148);
+	font-family: Verdana;
+}
+
+/* AKHIR CSS BAGIAN MAIN */
+
+/* AWAL CSS BAGIAN SAMSUNG */
+li {
+	list-style: none;
+}
+
+.content-item img {
+	height: 350px;
+}
+
+.content-item p {
+	font-size: 25px;
+	font-style: normal;
+	color: black;
+	text-align: center;
+}
+
+.samsung .container {
+	top: 60px;
+	padding: 5px 5px;
+	float: grid;
+	position: relative;
+	background-color: white;
+	font-size: 50px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.container h2 {
+	font-size: 50px;
+}
+
+.container h3 {
+	font-size: 30px;
+}
+
+.btn-wrapper {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.btn-wrapper p {
+	margin: 10px 0;
+}
+
+.btn {
+	padding: 10px 25px;
+	color: rgb(240, 235, 235);
+	background-color: rgb(14, 2, 2);
+	display: inline-block;
+	opacity: 0.8;
+	border-radius: 2px;
+	font-size: 25px;
+	margin-left: 20px;
+	transition: .3s;
+}
+
+.btn:hover {
+	opacity: 1;
+	transform: scaleX(1.1);
+	transition: .5s;
+}
+
+/* AKHIR CSS BAGIAN SAMSUNG */
+/* ======================================================================================================= */
+/* AWAL CSS BAGIAN XIAOMI */
+.xiaomi {
+	margin-top: 160px; top: 160px;
+	background-color: #e3e3d8;
+	/* flex-direction: column; */
+	/* padding: 100px 0; */
+}
+.items{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.title-section {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	text-align: center;
+}
+
+.title-section p {
+	margin: 0 25%;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: normal;
+	text-transform: capitalize;
+}
+
+.container-top {
+	padding-top: 30px;
+	margin: 0;
+	font-weight: 300;
+}
+
+.container-bottom {
+	background: #e3e3d8;
+	font-family: sans-serif;
+	width: 100%;
+	min-height: 50vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 100px;
+}
+
+.card {
+	width: 300px;
+	height: 400px;
+	background: #f4f4f4;
+	position: relative;
+	border-radius: 10px;
+	box-shadow: 0;
+	transform: scale(0.90);
+	transition: all .5s ease-in-out;
+	/*transform .5s ease-in-out;*/
+	overflow: hidden;
+}
+
+.card:hover {
+	/* transform: scale(1); */
+	box-shadow: 5px 20px 30px rgba(0, 0, 0, .4);
+}
+
+.imgBox {
+	width: 100%;
+	height: 80%;
+	overflow: hidden;
+}
+
+img {
+	height: 100%;
+
+}
+
+.details {
+	position: absolute;
+	width: 100%;
+	height: 55%;
+	background: #f4f4f4be;
+	padding: 10px 20px;
+	bottom: -43%;
+	transition: .5s;
+}
+
+.details:hover {
+	bottom: -12%;
+}
+
+.details span {
+	color: white;
+}
+
+.textContent {
+	position: relative;
+	/* margin-top: 10px; */
+	color: #555;
+}
+
+h3 {
+	font-size: 20px;
+	padding: 5px 0;
+}
+
+.price {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+h4 {
+	font-size: 18px;
+	margin-top: 15px;
+	padding: 10px 0;
+	font-weight: bold;
+	color: #555;
+}
+
+.btn {
+	margin-top: 5px;
+	text-decoration: none;
+}
+
+.container-bottom .card .details .fa {
+	font-size: 20px;
+	color: white;
+}
+
+.card .details .btnbeli {
+	width: 80%;
+	text-align: center;
+	position: relative;
+	/* padding: 10px 20px; */
+	/* margin: 20px 0; */
+	background: #45b9e0;
+	color: #fff;
+	border-radius: 15px;
+	border: none;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: .5s;
+}
+
+.btnbeli:hover {
+	background: #5acef4;
+	transition: .5s;
+	transform: scaleX(1.1);
+}
+
+.description {
+	background: #92879b;
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	top: -70px;
+	right: -70px;
+	border-radius: 100px;
+	transition: all .5s, border-radius 1s, top 1s;
+}
+
+.description .icon {
+	position: absolute;
+	top: 80px;
+	right: 80px;
+	color: #fff;
+	opacity: 1;
+}
+
+.description:hover {
+	width: 100%;
+	height: 80%;
+	right: 0;
+	top: 0;
+	border-radius: 0;
+}
+
+.description:hover .icon {
+	opacity: 0;
+}
+
+.description .contents {
+	color: #fff;
+	padding: 5%;
+	/* transform: scale(0.5); */
+	transform: translateY(-200%);
+	transition: opacity .2s, transform .8s;
+	opacity: 0;
+}
+
+.description:hover .contents {
+	transform: scale(1);
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.description h2 {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.description p {
+	line-height: 20px;
+}
+
+/* AKHIR CSS BAGIAN XIAOMI */
+/* ======================================================================================================= */
+/* AWAL CSS BAGIAN FOOTER */
+footer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: rgba(34, 49, 52, 0.9);
+	/* height: 100px; */
+	margin: 0;
+}
+
+.footer img {
+	float: left;
+	width: 125px;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+.btn-wrapper-footer {
+	color: bisque;
+	float: right;
+	padding: 30px;
+}
+
+.btnf {
+	padding: 12px 24px;
+	color: bisque;
+	display: inline-block;
+	opacity: 0.8;
+	text-align: right;
+	padding-right: 20px;
+	text-decoration: none;
+	transition: .3s;
+}
+
+.btnf:hover {
+	opacity: 1;
+	transform: scale(1.1);
+	transition: .5s;
+	color: white;
+}
+
+.fab {
+	margin-right: 5px;
+}
+footer{
+	text-align: center;
+}
+.footer span{
+	color: rgb(216, 168, 168);
+	font-size: 25px;
+}
+footer ul li{
+	font-size: 20px;
+	color: rgb(216, 168, 168);
+	margin-bottom: 5px;
+}
+footer p{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+.anggota{
+	border: 5px solid white;
+	border-style: dashed;
+	margin: 15px;
+}
+/* AKHIR CSS BAGIAN FOOTER */
+/* ======================================================================================================= */
+.scroll-btn{
+    font-size: 3rem;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+.scroll-btn:hover{
+    color: royalblue;
+}

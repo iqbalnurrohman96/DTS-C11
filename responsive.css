@@ -1,0 +1,54 @@
+/* AWAL CSS UKURAN TAB */
+@media all and (max-width: 1000px){
+.selamat-datang h1{
+    font-size: 25px;
+}
+header .container img{
+    width: 90px;
+    margin-top: 10px;
+}
+.footer {
+    justify-content: center;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+}
+.footer img{
+    width: 90px;
+}
+}
+/* AKHIR CSS UKURAN TAB */
+/* ================================================================== */
+/* AWAL CSS UKURAN SMARTPHONE */
+@media all and (max-width: 670px){
+
+    header .menu-icon{
+        display: block;
+    }
+    header .container img{
+        width: 60px;
+        margin-top: 20px;
+    }
+    .header-right {
+        display: none;
+    }
+    .header-left p{
+        display: none;
+    }
+.header-left a{
+    display: none;
+}
+    .selamat-datang h1 {
+        font-size: 16px;
+    }
+
+    .footer img{
+        width: 60px;
+    float: none;
+    }
+    .footer{
+        text-align: center;
+    }
+    
+}
